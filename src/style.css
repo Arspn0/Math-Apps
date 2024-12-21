@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.background-img{
+    background-image: url('/img/blackboard-inscribed-with-scientific-formulas-calculations.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+h1{
+    color: aliceblue;
+}
