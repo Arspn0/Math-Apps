@@ -1,15 +1,26 @@
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 900
+
+.rubik-<uniquifier> {
+  font-family: "Rubik", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
 *{
     margin: 0;
     padding: 0;
+    font-family: "Rubik", serif;
 }
 
 .background-img{
-    background-image: url('/img/blackboard-inscribed-with-scientific-formulas-calculations.jpg');
+    background-image: url('/img/background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
 }
 
 h1{
-    color: aliceblue;
+    color: black;
 }
