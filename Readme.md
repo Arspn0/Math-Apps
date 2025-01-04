@@ -19,12 +19,17 @@ Terimakasih!!.
   <p>Aris Sopian</p>
   <img src="/img/profile/abdl.png" height="200" alt="abdl"  />
   <img width="12" />
+  <p>Abdul Rahman Ibrahim</p>
   <img src="/img/profile/indr.png" height="200" alt="indr"  />
   <img width="12" />
+  <p>Indra Mulyadi</p>
   <img src="/img/profile/rnd.png" height="200" alt="rnd"  />
   <img width="12" />
+  <p>Randi Irwana</p>
   <img src="/img/profile/alf.png" height="200" alt="alf"  />
   <img width="12" />
+  <p>Alifa Izzatunnisa</p>
   <img src="/img/profile/rm.png" height="200" alt="rm"  />
   <img width="12" />
+  <p>Rima Aidah</p>
 </div>
