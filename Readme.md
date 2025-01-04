@@ -11,7 +11,6 @@ Project ini dibuat oleh kelompok 8, Teknik Informatika Semester 3, yang terdiri 
 Project ini akan dibuat dengan menggunakan HTML, Vanila CSS, Javascript dan kemungkinan menggunakan Math API.
 Jika kalian menemukan kesalahan pada project kali ini, harap berikan komentar kalian.
 
-Terimakasih!!.
     <div style="display: flex; flex-direction: column; align-items: center;">
     <div style="display: flex; justify-content: center; gap: 15px; width: 100%; margin-bottom: 20px;">
         <div style="text-align: center; flex: 1;">
@@ -42,3 +41,5 @@ Terimakasih!!.
         </div>
     </div>
 </div>
+
+Terimakasih!!
