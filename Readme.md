@@ -14,16 +14,16 @@ Jika kalian menemukan kesalahan pada project kali ini, harap berikan komentar ka
 Terimakasih!!.
 
 <div align="center">
-  <img src="/img/profile/ars.png" height="150" alt="ars"  />
+  <img src="/img/profile/ars.png" height="250" alt="ars"  />
   <img width="12" />
-  <img src="/img/profile/abdl.png" height="150" alt="abdl"  />
+  <img src="/img/profile/abdl.png" height="250" alt="abdl"  />
   <img width="12" />
-  <img src="/img/profile/indr.png" height="150" alt="indr"  />
+  <img src="/img/profile/indr.png" height="250" alt="indr"  />
   <img width="12" />
-  <img src="/img/profile/rnd.png" height="150" alt="rnd"  />
+  <img src="/img/profile/rnd.png" height="250" alt="rnd"  />
   <img width="12" />
-  <img src="/img/profile/alf.png" height="150" alt="alf"  />
+  <img src="/img/profile/alf.png" height="250" alt="alf"  />
   <img width="12" />
-  <img src="/img/profile/rm.png" height="150" alt="rm"  />
+  <img src="/img/profile/rm.png" height="250" alt="rm"  />
   <img width="12" />
 </div>
