@@ -16,6 +16,7 @@ Terimakasih!!.
 <div align="center">
   <img src="/img/profile/ars.png" height="200" alt="ars"  />
   <img width="12" />
+  <h1>Aris Sopian</h1>
   <img src="/img/profile/abdl.png" height="200" alt="abdl"  />
   <img width="12" />
   <img src="/img/profile/indr.png" height="200" alt="indr"  />
