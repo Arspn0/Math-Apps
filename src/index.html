@@ -33,7 +33,7 @@
             </div>
             <div class="profile-item">
                 <img src="/img/profile/abdl.png" alt="M2" class="profile-foto">
-                <h2 class="profile-name"><span class="typing-effect">Abdul Rahman Ibarahim</span></h2>
+                <h2 class="profile-name"><span class="typing-effect">Abdul Rachman Ibrahim</span></h2>
             </div>
             <div class="profile-item">
                 <img src="/img/profile/indr.png" alt="M3" class="profile-foto">
@@ -82,6 +82,51 @@
             </div>
             <div class="card">
                 <div class="card-title">2. Soal Kedua</div>
+            </div>
+                    <p>Masukkan elemen matriks 3x3:</p>
+                    <table>
+                        <tbody id="matrix-table">
+                            <tr>
+                                <td><input class="matrix-input" type="number" id="m00"></td>
+                                <td><input class="matrix-input" type="number" id="m01"></td>
+                                <td><input class="matrix-input" type="number" id="m02"></td>
+                            </tr>
+                            <tr>
+                                <td><input class="matrix-input" type="number" id="m10"></td>
+                                <td><input class="matrix-input" type="number" id="m11"></td>
+                                <td><input class="matrix-input" type="number" id="m12"></td>
+                            </tr>
+                            <tr>
+                                <td><input class="matrix-input" type="number" id="m20"></td>
+                                <td><input class="matrix-input" type="number" id="m21"></td>
+                                <td><input class="matrix-input" type="number" id="m22"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <button onclick="calculateInverse()">Hitung Invers</button>
+
+                    <h2>Hasil Invers Matriks:</h2>
+                    <table>
+                        <tbody id="result-table">
+                            <tr>
+                                <td id="r00">-</td>
+                                <td id="r01">-</td>
+                                <td id="r02">-</td>
+                            </tr>
+                            <tr>
+                                <td id="r10">-</td>
+                                <td id="r11">-</td>
+                                <td id="r12">-</td>
+                            </tr>
+                            <tr>
+                                <td id="r20">-</td>
+                                <td id="r21">-</td>
+                                <td id="r22">-</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
             <div class="card">
                 <div class="card-title">3. Soal Ketiga</div>
