@@ -22,7 +22,7 @@ var first = new Typed(".person1",{
 })
 
 var second = new Typed(".person2",{
-    strings : ["Abdul Rahman Ibrahim", "301230047"],
+    strings : ["Abdul Rahman Ibrahim", "301230001"],
     loop : true,
     typeSpeed : 80,
     backSpeed : 80,
@@ -31,7 +31,7 @@ var second = new Typed(".person2",{
 })
 
 var third = new Typed(".person3",{
-    strings : ["Indra Mulyadi", "301230047"],
+    strings : ["Indra Mulyadi", "301230005"],
     loop : true,
     typeSpeed : 90,
     backSpeed : 80,
@@ -40,7 +40,7 @@ var third = new Typed(".person3",{
 })
 
 var fourth = new Typed(".person4",{
-    strings : ["Randi Irwana", "301230047"],
+    strings : ["Randi Irwana", "301230032"],
     loop : true,
     typeSpeed : 80,
     backSpeed : 80,
@@ -49,7 +49,7 @@ var fourth = new Typed(".person4",{
 })
 
 var fifth = new Typed(".person5",{
-    strings : ["Aliffa Izzatunnisa", "301230047"],
+    strings : ["Aliffa Izzatunnisa", "301230028"],
     loop : true,
     typeSpeed : 80,
     backSpeed : 80,
@@ -58,7 +58,7 @@ var fifth = new Typed(".person5",{
 })
 
 var sixth = new Typed(".person6",{
-    strings : ["Rima Aidah", "301230047"],
+    strings : ["Rima Aidah", "301230035"],
     loop : true,
     typeSpeed : 80,
     backSpeed : 80,
@@ -67,7 +67,7 @@ var sixth = new Typed(".person6",{
 })
 
 var dosen = new Typed(".dosen",{
-    strings : ["Bu Ayu"],
+    strings : ["Siti Dewi Rahayu Septiani, S.Pd., M.Pd."],
     loop : true,
     typeSpeed : 80,
     backSpeed : 80,
