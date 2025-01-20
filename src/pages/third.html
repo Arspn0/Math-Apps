@@ -3,54 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="/src/style/third.css">
-    <title>Document</title>
+
+    <title>Ketiga</title>
 </head>
 <body>
     <div class="container">
+        <h1>Soal Ketiga</h1>
+
         <!-- Problem 3 -->
         <div class="problem-section">
-            <h2>3. Matrix Determinant and Solutions</h2>
             <div class="matrix-input-group">
-                <h3>Enter matrix elements:</h3>
                 <div class="input-grid">
+                    <h3>A:</h3>
                     <div>
-                        <label for="a11">a11:</label>
+                        <label for="a11"></label>
                         <input type="number" id="a11" value="1">
-                        <label for="a12">a12:</label>
+                        <label for="a12"></label>
                         <input type="number" id="a12" value="-3">
-                        <label for="a13">a13:</label>
+                        <label for="a13"></label>
                         <input type="number" id="a13" value="1">
                     </div>
                     <div>
-                        <label for="a21">a21:</label>
+                        <label for="a21"></label>
                         <input type="number" id="a21" value="2">
-                        <label for="a22">a22:</label>
+                        <label for="a22"></label>
                         <input type="number" id="a22" value="-1">
-                        <label for="a23">a23:</label>
+                        <label for="a23"></label>
                         <input type="number" id="a23" value="0">
                     </div>
                     <div>
-                        <label for="a31">a31:</label>
+                        <label for="a31"></label>
                         <input type="number" id="a31" value="4">
-                        <label for="a32">a32:</label>
+                        <label for="a32"></label>
                         <input type="number" id="a32" value="0">
-                        <label for="a33">a33:</label>
+                        <label for="a33"></label>
                         <input type="number" id="a33" value="-3">
                     </div>
                 </div>
 
-                <h3>Enter constants (B):</h3>
+                <h3>B:</h3>
                 <div class="input-constants">
-                    <label for="b1">b1:</label>
+                    <label for="b1"></label>
                     <input type="number" id="b1" value="4">
-                    <label for="b2">b2:</label>
+                    <label for="b2"></label>
                     <input type="number" id="b2" value="-2">
-                    <label for="b3">b3:</label>
+                    <label for="b3"></label>
                     <input type="number" id="b3" value="0">
                 </div>
 
-                <button onclick="hitungDeterminan()" class="calculate-btn">Calculate</button>
+                <button onclick="hitungDeterminan()" class="calculate-btn">Hitung</button>
 
                 <div class="results-section">
                     <p id="hasilDet">Det(A): </p>
@@ -62,7 +68,6 @@
             </div>
         </div>
     </div>
-
 
     <script src="/src/script/script.js"></script>
 </body>
