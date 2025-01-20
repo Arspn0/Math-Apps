@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/style/second.css">
+
+    <title>Math App</title>
+</head>
+<body>
+    <div class="container">
+
+
+        <!-- Problem 2 -->
+        <div class="problem-section">
+            <h2>2. Matrix Inverse</h2>
+            <p>Enter 3x3 matrix for inverse calculation:</p>
+            <div class="matrix-input-group">
+                <table>
+                    <tbody id="matrix-table">
+                        <tr>
+                            <td><input class="matrix-input" type="number" id="m00"></td>
+                            <td><input class="matrix-input" type="number" id="m01"></td>
+                            <td><input class="matrix-input" type="number" id="m02"></td>
+                        </tr>
+                        <tr>
+                            <td><input class="matrix-input" type="number" id="m10"></td>
+                            <td><input class="matrix-input" type="number" id="m11"></td>
+                            <td><input class="matrix-input" type="number" id="m12"></td>
+                        </tr>
+                        <tr>
+                            <td><input class="matrix-input" type="number" id="m20"></td>
+                            <td><input class="matrix-input" type="number" id="m21"></td>
+                            <td><input class="matrix-input" type="number" id="m22"></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <button onclick="calculateInverse()" class="calculate-btn">Calculate Inverse</button>
+                <h3>Inverse Result:</h3>
+                <table>
+                    <tbody id="result-table">
+                        <tr>
+                            <td id="r00">-</td>
+                            <td id="r01">-</td>
+                            <td id="r02">-</td>
+                        </tr>
+                        <tr>
+                            <td id="r10">-</td>
+                            <td id="r11">-</td>
+                            <td id="r12">-</td>
+                        </tr>
+                        <tr>
+                            <td id="r20">-</td>
+                            <td id="r21">-</td>
+                            <td id="r22">-</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="/src/script/script.js"></script>
+</body>
+</html>

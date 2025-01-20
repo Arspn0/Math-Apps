@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/style/third.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Problem 3 -->
+        <div class="problem-section">
+            <h2>3. Matrix Determinant and Solutions</h2>
+            <div class="matrix-input-group">
+                <h3>Enter matrix elements:</h3>
+                <div class="input-grid">
+                    <div>
+                        <label for="a11">a11:</label>
+                        <input type="number" id="a11" value="1">
+                        <label for="a12">a12:</label>
+                        <input type="number" id="a12" value="-3">
+                        <label for="a13">a13:</label>
+                        <input type="number" id="a13" value="1">
+                    </div>
+                    <div>
+                        <label for="a21">a21:</label>
+                        <input type="number" id="a21" value="2">
+                        <label for="a22">a22:</label>
+                        <input type="number" id="a22" value="-1">
+                        <label for="a23">a23:</label>
+                        <input type="number" id="a23" value="0">
+                    </div>
+                    <div>
+                        <label for="a31">a31:</label>
+                        <input type="number" id="a31" value="4">
+                        <label for="a32">a32:</label>
+                        <input type="number" id="a32" value="0">
+                        <label for="a33">a33:</label>
+                        <input type="number" id="a33" value="-3">
+                    </div>
+                </div>
+
+                <h3>Enter constants (B):</h3>
+                <div class="input-constants">
+                    <label for="b1">b1:</label>
+                    <input type="number" id="b1" value="4">
+                    <label for="b2">b2:</label>
+                    <input type="number" id="b2" value="-2">
+                    <label for="b3">b3:</label>
+                    <input type="number" id="b3" value="0">
+                </div>
+
+                <button onclick="hitungDeterminan()" class="calculate-btn">Calculate</button>
+
+                <div class="results-section">
+                    <p id="hasilDet">Det(A): </p>
+                    <p id="hasilDetA1">Det(A1): </p>
+                    <p id="hasilDetA2">Det(A2): </p>
+                    <p id="hasilDetA3">Det(A3): </p>
+                    <p id="solusi">Solution: </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="/src/script/script.js"></script>
+</body>
+</html>

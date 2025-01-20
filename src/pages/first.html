@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/style/first.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Soal Pertama</h1>
+
+        <!-- Problem 1 -->
+        <div class="problem-section">
+            <div class="container">
+                
+                <div class="matrix-inputs">
+                    <div class="matrix-input-group">
+                        <h3>Matrix A (2×2)</h3>
+                        <div class="matrix-grid" id="matrixA">
+                            <input type="number" value="2" data-row="0" data-col="0">
+                            <input type="number" value="-3" data-row="0" data-col="1">
+                            <input type="number" value="4" data-row="1" data-col="0">
+                            <input type="number" value="2" data-row="1" data-col="1">
+                        </div>
+                    </div>
+        
+                    <div class="matrix-input-group">
+                        <h3>Matrix B (2×2)</h3>
+                        <div class="matrix-grid" id="matrixB">
+                            <input type="number" value="-2" data-row="0" data-col="0">
+                            <input type="number" value="4" data-row="0" data-col="1">
+                            <input type="number" value="1" data-row="1" data-col="0">
+                            <input type="number" value="7" data-row="1" data-col="1">
+                        </div>
+                    </div>
+        
+                    <div class="matrix-input-group">
+                        <h3>Matrix C (3×2)</h3>
+                        <div class="matrix-grid" id="matrixC">
+                            <input type="number" value="4" data-row="0" data-col="0">
+                            <input type="number" value="7" data-row="0" data-col="1">
+                            <input type="number" value="5" data-row="1" data-col="0">
+                            <input type="number" value="-2" data-row="1" data-col="1">
+                            <input type="number" value="-1" data-row="2" data-col="0">
+                            <input type="number" value="1" data-row="2" data-col="1">
+                        </div>
+                    </div>
+                </div>
+        
+                <button onclick="calculateAll()" class="calculate-btn">Hitung</button>
+        
+                <div class="results" id="results">
+                    <div class="result-group">
+                        <h3>a) C × A</h3>
+                        <div id="resultA" class="matrix-result"></div>
+                    </div>
+                    <div class="result-group">
+                        <h3>b) Aᵀ × (A + B)</h3>
+                        <div id="resultB" class="matrix-result"></div>
+                    </div>
+                    <div class="result-group">
+                        <h3>c) (C × B)ᵀ</h3>
+                        <div id="resultC" class="matrix-result"></div>
+                    </div>
+                    <div class="result-group">
+                        <h3>d) (B × A)ᵀ - (Aᵀ × B)</h3>
+                        <div id="resultD" class="matrix-result"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/src/script/script.js"></script>
+</body>
+</html>
