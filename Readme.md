@@ -8,7 +8,7 @@ Project ini dibuat oleh kelompok 8, Teknik Informatika Semester 3, yang terdiri 
 5. Alifa Izzatunnisa
 6. Rima Aidah
 
-Project ini akan dibuat dengan menggunakan HTML, Vanila CSS, Javascript dan kemungkinan menggunakan Math API.
+Project ini akan dibuat dengan menggunakan HTML, Vanila CSS, Javascript.
 Jika kalian menemukan kesalahan pada project kali ini, harap berikan komentar kalian.
 
 Terimakasih!!.
