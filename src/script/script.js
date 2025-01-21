@@ -79,9 +79,8 @@ function calculateAll() {
         const resultC = transposeMatrix(CB);
         displayMatrix(resultC, 'resultC');
 
-        // d) (B × A)ᵀ - (Aᵀ × B)
-        const BA = multiplyMatrices(matrixB, matrixA);
-        const BAT = transposeMatrix(BA);
+        // d) (B × Aᵀ) - (Aᵀ × B)
+        const BAT = multiplyMatrices(matrixB, matrixAT);
         const ATB = multiplyMatrices(matrixAT, matrixB);
         const resultD = subtractMatrices(BAT, ATB);
         displayMatrix(resultD, 'resultD');
