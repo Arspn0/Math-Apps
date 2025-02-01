@@ -181,9 +181,9 @@ const detA3 = (a11 * (a22 * b3 - b2 * a32)) -
 
 // Tampilkan hasil
 document.getElementById("hasilDet").textContent = `Det(A): ${detA}`;
-document.getElementById("hasilDetA1").textContent = `Det(A1): 30`;
-document.getElementById("hasilDetA2").textContent = `Det(A2): 14`;
-document.getElementById("hasilDetA3").textContent = `Det(A3): 24`;
+document.getElementById("hasilDetA1").textContent = `Det(A1): ${detA1}`;
+document.getElementById("hasilDetA2").textContent = `Det(A2): ${detA2}`;
+document.getElementById("hasilDetA3").textContent = `Det(A3): ${detA3}`;
 document.getElementById("solusi").textContent = `Solusi: X1 = ${(30 / detA).toFixed(2)}, X2 = ${(14 / detA).toFixed(2)}, X3 = ${(24 / detA).toFixed(2)}`;
 }
 
