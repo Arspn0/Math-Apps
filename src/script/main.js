@@ -49,7 +49,7 @@ var fourth = new Typed(".person4",{
 })
 
 var fifth = new Typed(".person5",{
-    strings : ["Aliffa Izzatunnisa", "301230028"],
+    strings : ["Alifa Izzatunnisa", "301230028"],
     loop : true,
     typeSpeed : 80,
     backSpeed : 80,
