@@ -184,7 +184,7 @@ document.getElementById("hasilDet").textContent = `Det(A): ${detA}`;
 document.getElementById("hasilDetA1").textContent = `Det(A1): ${detA1}`;
 document.getElementById("hasilDetA2").textContent = `Det(A2): ${detA2}`;
 document.getElementById("hasilDetA3").textContent = `Det(A3): ${detA3}`;
-document.getElementById("solusi").textContent = `Solusi: X1 = ${(30 / detA).toFixed(2)}, X2 = ${(14 / detA).toFixed(2)}, X3 = ${(24 / detA).toFixed(2)}`;
+document.getElementById("solusi").textContent = `Solusi: X1 = ${(detA1 / detA).toFixed(2)}, X2 = ${(detA2 / detA).toFixed(2)}, X3 = ${(detA3 / detA).toFixed(2)}`;
 }
 
 // Hitung langsung ketika halaman dimuat
